@@ -27,7 +27,7 @@ class SpringDemoController {
 
     @RequestMapping(method = GET, path = "/")
     public String root() {
-        return "Spring Boot REST service running: Served by " + getClass().getName();
+        return "Spring Boot REST service running: Served with style by " + getClass().getName();
     }
 
     @RequestMapping(method = GET, path = "hello/{name}")
